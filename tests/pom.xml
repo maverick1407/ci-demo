@@ -11,9 +11,9 @@
 
   <artifactId>tests</artifactId>
 
- <!-- <properties>
+  <properties>
     <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
-  </properties>-->
+  </properties>
 
   <name>Tests</name>
 
@@ -32,7 +32,7 @@
 
   <build>
     <plugins>
-     <!-- <plugin>
+      <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <executions>
@@ -44,7 +44,7 @@
             <phase>verify</phase>
           </execution>
         </executions>
-      </plugin>-->
+      </plugin>
     </plugins>
   </build>
 
